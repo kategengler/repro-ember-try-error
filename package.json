@@ -14,7 +14,7 @@
     "build": "ember build",
     "lint:js": "eslint ./*.js app config lib server tests",
     "start": "ember serve",
-    "test": "ember test"
+    "test": "ember try:each"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -36,6 +36,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.18.0",
+    "ember-source-channel-url": "^1.1.0",
     "ember-try": "^1.1.0",
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3"
